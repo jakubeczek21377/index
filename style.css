@@ -1,0 +1,45 @@
+/* Resetowanie stylów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styl dla headera */
+header {
+    background-color: #0d802a; /* Ciemny niebieski */
+    color: #c2c2c2; /* Biały tekst */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Styl dla main */
+main {
+    text-align: center;
+    padding: 150px;
+    background-color: rgb(69, 83, 3)
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styl dla footera */
+footer {
+    background-color: #130468; /* Ciemny niebieski */
+    color: #56abfa; /* Biały tekst */
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+}
